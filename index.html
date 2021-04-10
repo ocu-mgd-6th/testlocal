@@ -2,18 +2,705 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/lib/bootstrap-4.2.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <title>僑光科技大學 多媒體與遊戲設計系 106屆 主視覺 煙謎</title>
+
 </head>
 
 <body>
 
-    <div class="wrap">
-        test text
-    </div>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img src="./assets/images/website-logo.png" class="img-fluid" alt="" srcset="">
+                </a>
+                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
 
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link active font-weight-bolder" href="#about">首頁</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bolder" href="#mainvisual">主視覺</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bolder" href="#offers">作品一覽</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bolder" href="#sponsor">贊助廠商</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bolder" href="#contact">聯絡我們</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <div class="banner" id="about">
+
+        </div>
+    </header>
+
+    <section class="section" id="mainvisual">
+        <div class="container">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="left-content">
+                            <div class="main-img img-fluid">
+                                <div class="main-icon-bg" type="button">
+                                    <i class="fas"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="right-content">
+                            <div class="content-title">
+                                <div class="title-en">
+                                    <span>main &ensp; visual</span>
+                                </div>
+                                <div class="title-zh">
+                                    <span>主視覺</span>
+                                </div>
+                            </div>
+                            <div class="main-content-desc">
+                                <span>煙謎</span>
+                                <p>「煙」在日常生活中，視覺上看到的顏色、味覺和型態多變，「謎」代表著謎團，和未知的方向，如同形象圖上的迷宮，煙在迷宮穿梭的過程中會遇到岔路或是某個終點，希望我們和煙一樣在各個領域中能有多元的創意及變化姿態。
+                                </p>
+                                <span>Virtual Mystery</span>
+                                <p> Virtual means like smoke,"Smoke" visually sees colors, tastes and patterns in daily
+                                    life. "Mystery" represents mystery and unknown direction. Just like the maze on the
+                                    image map, smoke will encounter in the process of traveling through the maze. A fork
+                                    in the road or a certain end, I hope that we can have diverse creativity and change
+                                    attitudes in various fields like.</p>
+
+                            </div>
+                            <div class="main-content-btn">
+                                <a href="#">了解更多</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="offers">
+        <div class="container">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content-title">
+                            <div class="title-en">
+                                <span>OUR&ensp;WORKS</span>
+                            </div>
+                            <div class="title-zh">
+                                <span>作品一覽</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mx-auto">
+                        <div class="content-tab">
+                            <div class="row">
+                                <div class="col-4 text-center">
+                                    <div class="tab filter-button" data-filter="animation"
+                                        onclick=SupendButtonClick(this);>
+                                        <img src="./assets/images/tab-icon-01.png" class="tab-icon" alt="" srcset="">
+                                        <span class="tab-name">動畫</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <div class="tab filter-button" data-filter="game" onclick=SupendButtonClick(this);>
+                                        <img src="./assets/images/tab-icon-02.png" class="tab-icon" alt="" srcset="">
+                                        <span class="tab-name">遊戲</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <div class="tab filter-button" data-filter="movie" onclick=SupendButtonClick(this);>
+                                        <img src="./assets/images/tab-icon-03.png" class="tab-icon" alt="" srcset="">
+                                        <span class="tab-name">微電影</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 filter animation">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-Animation_1.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="" data-toggle="modal" data-target="#Animation1">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>愛她的方式</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">動畫</div>
+                                    <div class="tag-txt">教育</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter animation">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-Animation_2.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>交界追尋</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">動畫</div>
+                                    <div class="tag-txt">教育</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter animation">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-Animation_3.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>霧裡逝花</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">動畫</div>
+                                    <div class="tag-txt">教育</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter animation">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src=".//assets/images/offers-item-Animation_4.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>領路人</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">動畫</div>
+                                    <div class="tag-txt">教育</div>
+                                    <div class="tag-txt">傳統</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter animation">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-Animation_5.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>童心cheer</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">動畫</div>
+                                    <div class="tag-txt">教育</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter animation">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-Animation_6.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>囹圄</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">動畫</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter game">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-game_1.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>茶經知古</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">遊戲</div>
+                                    <div class="tag-txt">教育</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter game">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-game_2.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>毛蟹穴</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">遊戲</div>
+                                    <div class="tag-txt">教育</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter game">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-game_3.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>旗求</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">遊戲</div>
+                                    <div class="tag-txt">教育</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter game">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-game_4.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>A&ensp;last&ensp;Bird</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">遊戲</div>
+                                    <div class="tag-txt">教育</div>
+                                    <div class="tag-txt">傳統</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter game">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-game_5.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>偽妄</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">遊戲</div>
+                                    <div class="tag-txt">教育</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter game">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-game_6.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>鄭氏奇航</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">遊戲</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter game">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-game_7.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>Ellen&ensp;Travel</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">遊戲</div>
+                                    <div class="tag-txt">教育</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter game">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-game_8.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>貓館</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">遊戲</div>
+                                    <div class="tag-txt">教育</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter game">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-game_9.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>宋往銀來</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">遊戲</div>
+                                    <div class="tag-txt">教育</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter game">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-game_10.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>天塔之戰</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">遊戲</div>
+                                    <div class="tag-txt">教育</div>
+                                    <div class="tag-txt">傳統</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter game">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-game_11.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>靈感 : Soul&ensp;Induction</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">遊戲</div>
+                                    <div class="tag-txt">教育</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter game">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-game_12.png" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>Rancing&ensp;Wild</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">遊戲</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter movie">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-movie_1.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>別忘了你還活著</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">微電影</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter movie">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-movie_2.png" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>選擇與抉擇</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">微電影</div>
+                                    <div class="tag-txt">互動</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter movie">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./assets/images/offers-item-movie_3.jpg" class="img-fluid" alt="">
+                                <div class="overlayer">
+                                    <a href="">
+                                        <div class="circle-bg">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="team-name">
+                                    <h4>愛 ‧ 礙</h4>
+                                </div>
+                                <div class="team-tag">
+                                    <div class="tag-txt">微電影</div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="sponsor">
+        <div class="container">
+            <div class="section-content">
+                <div class="school-img" style="margin-bottom: 30px;">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="content-title">
+                                <div class="title-en">
+                                    <span>Exhibitor</span>
+                                </div>
+                                <div class="title-zh">
+                                    參展單位
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 offset-md-4">
+                            <div class="row">
+                                <div class="col-6"> <img src="./assets/images/sponsor-school-item-01.png"
+                                        class="img-fluid" style="height: 107px; display:block; margin:auto;" alt="">
+                                </div>
+                                <div class="col-6"> <img src="./assets/images/sponsor-school-item-02.png"
+                                        class="img-fluid" style="height: 107px; display:block; margin:auto;" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content-title">
+                            <div class="title-en">
+                                <span>sponsor</span>
+                            </div>
+                            <div class="title-zh">
+                                <span>贊助廠商</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="sponsor-img">
+                            <img src="./assets/images/sponsor-item-01.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="sponsor-img">
+                            <img src="./assets/images/sponsor-item-02.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="sponsor-img">
+                            <img src="./assets/images/sponsor-item-05.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="sponsor-img">
+                            <img src="./assets/images/sponsor-item-07.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Plug-in -->
+    <script src="./assets/lib/jquery-3.6.0.min.js"></script>
+    <script src="./assets/lib/bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>
